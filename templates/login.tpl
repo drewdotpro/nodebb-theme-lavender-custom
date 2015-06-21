@@ -55,7 +55,7 @@
         <div class="well well-lg">
             <h2>One Click Entry</h2>
             <div class="row">
-                <div class="<!-- IF allowLocalLogin -->col-md-12<!-- ELSE -->col-xs-12 col-lg-5<!-- ENDIF allowLocalLogin -->">
+                <div class="<!-- IF allowLocalLogin -->col-md-12<!-- ELSE -->col-xs-12 col-lg-4<!-- ENDIF allowLocalLogin -->">
                     <h4>Login/Signup with</h4>
                     <ul class="alt-logins">
                         <!-- BEGIN authentication -->
@@ -63,7 +63,7 @@
                         <!-- END authentication -->
                     </ul>
                 </div>
-                <div class="<!-- IF allowLocalLogin -->col-md-12<!-- ELSE -->col-xs-12 col-lg-6 col-lg-offset-1<!-- ENDIF allowLocalLogin -->">
+                <div class="<!-- IF allowLocalLogin -->col-md-12<!-- ELSE -->col-xs-12 col-lg-8<!-- ENDIF allowLocalLogin -->">
                     <h4>Log In or Sign Up Instantly using Social Authentication</h4>
                     <p>To keep the forum safe and secure, and to keep out trolls and other undesireables we ask everyone to
                         sign up or sign in with one of the methods below. We use the authentication information from these services
