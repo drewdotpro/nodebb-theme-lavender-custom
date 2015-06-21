@@ -1,11 +1,11 @@
 {
   "name": "nodebb-theme-lavender",
   "version": "1.0.45",
-  "description": "Lavender Theme for NodeBB",
+  "description": "Custom Lavender Theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-lavender"
+    "url": "https://github.com/drewdotpro/nodebb-theme-lavender-custom"
   },
   "keywords": [
     "nodebb",
@@ -14,12 +14,12 @@
     "themes"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "drewdotpro",
+    "email": "drew@drew.pro"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-lavender/issues"
+    "url": "https://github.com/drewdotpro/nodebb-theme-lavender-custom/issues"
   },
   "peerDependencies": {
     "nodebb-theme-vanilla": "^1.0.0"

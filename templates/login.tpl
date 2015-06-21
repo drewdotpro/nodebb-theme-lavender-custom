@@ -51,22 +51,26 @@
 	<!-- ENDIF allowLocalLogin -->
 
 	<!-- IF alternate_logins -->
-	<div class="<!-- IF allowLocalLogin -->col-md-6<!-- ELSE -->col-md-12<!-- ENDIF allowLocalLogin -->">
-		<div class="well well-lg">
+    <div class="<!-- IF allowLocalLogin -->col-md-6<!-- ELSE -->col-md-12<!-- ENDIF allowLocalLogin -->">
+        <div class="well well-lg">
             <h2>One Click Entry</h2>
-			<h4>Log In or Sign Up Instantly using Social Authentication</h4>
-            <p>To keep the forum safe and secure, and to keep out trolls and other undesireables we ask everyone to
-                sign up or sign in with one of the methods below. We use the authentication information from these services
-                to log you in and set your basic profile information. We don't share any of that information with anyone,
-                we never have access to your service's password and we never store ir share any extra information we get
-                back from the services.</p>
-            <h4>Login/Signup with</h4>
-			<ul class="alt-logins">
-				<!-- BEGIN authentication -->
-				<li class="{authentication.name}"><a rel="nofollow" target="_top" href="{config.relative_path}{authentication.url}"><i class="fa {authentication.icon} fa-3x"></i></a></li>
-				<!-- END authentication -->
-			</ul>
-		</div>
-	</div>
+            <div class="<!-- IF allowLocalLogin -->col-md-12<!-- ELSE -->col-md-6<!-- ENDIF allowLocalLogin -->">
+                <h4>Log In or Sign Up Instantly using Social Authentication</h4>
+                <p>To keep the forum safe and secure, and to keep out trolls and other undesireables we ask everyone to
+                    sign up or sign in with one of the methods below. We use the authentication information from these services
+                    to log you in and set your basic profile information. We don't share any of that information with anyone,
+                    we never have access to your service's password and we never store ir share any extra information we get
+                    back from the services.</p>
+            </div>
+            <div class="<!-- IF allowLocalLogin -->col-md-12<!-- ELSE -->col-md-6<!-- ENDIF allowLocalLogin -->">
+                <h4>Login/Signup with</h4>
+                <ul class="alt-logins">
+                    <!-- BEGIN authentication -->
+                    <li class="{authentication.name}"><a rel="nofollow" target="_top" href="{config.relative_path}{authentication.url}"><i class="fa {authentication.icon} fa-3x"></i></a></li>
+                    <!-- END authentication -->
+                </ul>
+            </div>
+        </div>
+    </div>
 	<!-- ENDIF alternate_logins -->
 </div>
