@@ -59,7 +59,7 @@
                     <h4>Login/Signup with</h4>
                     <ul class="alt-logins">
                         <!-- BEGIN authentication -->
-                        <li class="{authentication.name}"><a rel="nofollow" target="_top" href="{config.relative_path}{authentication.url}"><i class="fa {authentication.icon} fa-3x"></i></a></li>
+                        <li class="{authentication.name}"><a rel="nofollow" target="_top" href="{config.relative_path}{authentication.url}"><i class="fa {authentication.icon} fa-6x"></i></a></li>
                         <!-- END authentication -->
                     </ul>
                 </div>
