@@ -68,8 +68,7 @@
                     <p>To keep the forum safe and secure, and to keep out trolls and other undesireables we ask everyone to
                         sign up or sign in with one of the methods below. We use the authentication information from these services
                         to log you in and set your basic profile information. We don't share any of that information with anyone,
-                        we never have access to your service's password and we never store ir share any extra information we get
-                        back from the services.</p>
+                        we never have access to your service's password and we never store or share any extra data from the services.</p>
                 </div>
             </div>
         </div>
