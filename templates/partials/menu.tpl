@@ -143,7 +143,7 @@
         <li>
             <a href="{relative_path}/login">
                 <i class="fa fa-sign-in visible-xs-inline"></i>
-                <span>[[global:login]]</span>
+                <span>[[global:login]] / [[global:register]]</span>
             </a>
         </li>
     </ul>
