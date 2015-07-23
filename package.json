@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-lavender-custom",
-  "version": "1.0.45",
+  "version": "1.0.48",
   "description": "Custom Lavender Theme for NodeBB",
   "main": "theme.less",
   "repository": {
@@ -21,7 +21,4 @@
   "bugs": {
     "url": "https://github.com/drewdotpro/nodebb-theme-lavender-custom/issues"
   },
-  "peerDependencies": {
-    "nodebb-theme-vanilla": "^1.0.0"
-  }
 }
